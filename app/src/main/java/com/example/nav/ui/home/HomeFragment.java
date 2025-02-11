@@ -7,19 +7,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.nav.R;
 import com.example.nav.databinding.FragmentHomeBinding;
+import com.example.nav.first;
 import com.example.nav.profile;
-import com.example.nav.ui.news.NewsFragment;
+import com.example.nav.ui.chat.ChatFragment;
+
 
 public class HomeFragment extends Fragment {
-
+    
     private FragmentHomeBinding binding;
+
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -34,11 +36,13 @@ public class HomeFragment extends Fragment {
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
 
-
         // ✅ Initialize goprofile inside onCreateView, not onDestroyView
         binding.imageView7.setOnClickListener(v -> {
             startActivity(new Intent(requireContext(), profile.class));
         });
+
+
+
 
 
         return root;
@@ -48,5 +52,7 @@ public class HomeFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+
+
     }
 }
