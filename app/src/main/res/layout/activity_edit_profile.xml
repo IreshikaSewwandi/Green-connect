@@ -15,7 +15,6 @@
         android:background="@drawable/background2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -72,6 +71,7 @@
         android:background="@drawable/rectangle_31"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rectangle_1"
         app:layout_constraintVertical_bias="0.924" />
@@ -127,6 +127,22 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Farm Size"
+        android:textColor="#737373"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_34"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_34"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_34"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_34" />
+
     <View
         android:id="@+id/rectangle_34"
         android:layout_width="274dp"
@@ -152,87 +168,26 @@
         android:background="@drawable/rectangle_32"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintHorizontal_bias="0.593"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
         app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/farm_name"
-        android:layout_width="261dp"
-        android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/farm_name"
-        android:textAppearance="@style/farm_name"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_32"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_32"
-        app:layout_constraintHorizontal_bias="0.456"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_32"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_32"
-        app:layout_constraintVertical_bias="0.47" />
-
-    <View
-        android:id="@+id/rectangle_36"
-        android:layout_width="82dp"
-        android:layout_height="37dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="109dp"
-        android:layout_marginEnd="245dp"
-        android:background="@drawable/rectangle_36"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_31"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/num"
-        android:layout_width="61dp"
-        android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:gravity="center"
-        android:text="@string/num"
-        android:textAppearance="@style/num"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_36"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_36"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_31"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_36" />
 
     <View
         android:id="@+id/rectangle_37"
-        android:layout_width="170dp"
-        android:layout_height="34dp"
+        android:layout_width="274dp"
+        android:layout_height="38dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="109dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="372dp"
         android:background="@drawable/rectangle_37"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="0.007" />
-
-    <TextView
-        android:id="@+id/phone_numbe"
-        android:layout_width="150dp"
-        android:layout_height="23dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/phone_numbe"
-        android:textAppearance="@style/phone_numbe"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_37"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_37"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_37"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_37"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_31" />
 
     <TextView
         android:id="@+id/change_emai"
@@ -240,32 +195,17 @@
         android:layout_height="26dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="154dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="338dp"
         android:gravity="center"
         android:text="@string/change_emai"
         android:textAppearance="@style/change_emai"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="0.002" />
-
-    <TextView
-        android:id="@+id/set_location"
-        android:layout_width="213dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/set_location"
-        android:textAppearance="@style/set_location"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_35"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_35"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_35"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_35"
-        app:layout_constraintVertical_bias="0.562" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_31" />
 
     <View
         android:id="@+id/rectangle_38"
@@ -281,20 +221,6 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
         app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/email_addre"
-        android:layout_width="241dp"
-        android:layout_height="29dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/email_addre"
-        android:textAppearance="@style/email_addre"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_38"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_38"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_38"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_38" />
 
     <TextView
         android:id="@+id/set_location3"
@@ -331,38 +257,6 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
         app:layout_constraintVertical_bias="0.013" />
 
-    <TextView
-        android:id="@+id/farm_size"
-        android:layout_width="179dp"
-        android:layout_height="34dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/farm_size"
-        android:textAppearance="@style/farm_size"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_34"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_34"
-        app:layout_constraintHorizontal_bias="0.314"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_34"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_34"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/soil_type"
-        android:layout_width="139dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="@string/soil_type"
-        android:textAppearance="@style/soil_type"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_33"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_33"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_33"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_33"
-        app:layout_constraintVertical_bias="0.0" />
-
     <View
         android:id="@+id/rectangle_39"
         android:layout_width="185dp"
@@ -373,10 +267,10 @@
         android:background="@drawable/rectangle_39"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <View
         android:id="@+id/rectangle_40"
@@ -452,7 +346,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_33"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_33"
-        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="@+id/rectangle_33"
         app:layout_constraintTop_toTopOf="@+id/rectangle_33"
         app:layout_constraintVertical_bias="0.444"
@@ -469,6 +363,112 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.639"
         app:srcCompat="@drawable/logout" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="245dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Farm Name"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_32"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_32"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_32"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_32"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone Number"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_37"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_37"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_37"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_37"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_38"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_38"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_38"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_38"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Set Location"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_35"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_35"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_35"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_35" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Farm Size"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_34"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_34"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_34"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_34"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="166dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="71dp"
+        android:gravity="center"
+        android:text="Soil Type"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_33"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_33"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_33"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_33" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
