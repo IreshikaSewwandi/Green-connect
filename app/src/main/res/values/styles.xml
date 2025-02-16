@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="log_in">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#099E15</item>
+    </style>
+
+    <style name="let_s">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#1F2127</item>
+    </style>
+
+    <style name="welcome_bac">
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="log_in_to_y">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="forgotten_p">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="or">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="log_in_with">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="dont_t_have">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sign_up_for">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="your_sign_u">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="continue_to">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#049F10</item>
+    </style>
+
+    <style name="green_conne">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="welcome_l_e">
+        <item name="android:textSize">16.8sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="weather_con">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#049F10</item>
+    </style>
+
+    <style name="jan">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="kaduwela">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="oc_23_oc">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="clear_sky">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="oc">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="agri_ai_sma">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#049F10</item>
+    </style>
+
+    <style name="chat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#111111</item>
+    </style>
+
+    <style name="market_plac">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#111111</item>
+    </style>
+
+    <style name="agri_ai_new">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#111111</item>
+    </style>
+
+    <style name="hi_l_e_g_ba">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="type_your_q">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#797171</item>
+    </style>
+
+    <style name="set_locatio">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="enukagayash">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="edit_profil">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#347FC2</item>
+    </style>
+
+    <style name="total_chat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#347FC2</item>
+    </style>
+
+    <style name="some_id1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D4B000</item>
+    </style>
+
+    <style name="some_id2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#870C8E</item>
+    </style>
+
+    <style name="some_id3">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#058110</item>
+    </style>
+
+    <style name="total_peopl">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#058110</item>
+    </style>
+
+    <style name="recent_conv">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#2C2727</item>
+    </style>
+
+    <style name="what_you_ar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#33F23D</item>
+    </style>
+
+    <style name="oder_now">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="specl_offer">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#099E15</item>
+    </style>
+
+    <style name="edit_profile2">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="farm_inform">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#25CE33</item>
+    </style>
+
+    <style name="farm_name">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="num">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="phone_numbe">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="change_emai">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#25CE33</item>
+    </style>
+
+    <style name="set_location">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="email_addre">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="set_location3">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#25CE33</item>
+    </style>
+
+    <style name="farm_detail">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#25CE33</item>
+    </style>
+    <style name="farm_size">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="soil_type">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+    <style name="save">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#099E15</item>
+    </style>
+
+    <style name="cancle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#666363</item>
+    </style>
+
+</resources>
