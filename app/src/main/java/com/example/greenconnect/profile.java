@@ -32,7 +32,7 @@ public class profile extends AppCompatActivity {
         logout = findViewById(R.id.imageView17);
         editpro = findViewById(R.id.edit_profil);
         editpro.setOnClickListener(v -> {
-            startActivity(new Intent(profile.this, editProfile.class));
+            startActivity(new Intent(profile.this, edit_profile.class));
         });
 
         logout.setOnClickListener(v -> {
