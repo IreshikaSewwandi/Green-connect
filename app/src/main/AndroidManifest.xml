@@ -16,9 +16,23 @@
             android:name=".edit_profile"
             android:exported="false" />
         <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".successful"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="false" />
+        <activity
+            android:name=".first"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
