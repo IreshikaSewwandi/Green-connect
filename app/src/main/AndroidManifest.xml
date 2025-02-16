@@ -13,32 +13,21 @@
         android:theme="@style/Theme.GreenConnect"
         tools:targetApi="31">
         <activity
-            android:name=".edit_profile"
-            android:exported="false" />
-        <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
-            android:name=".successful"
-            android:exported="false" />
-        <activity
-            android:name=".signup"
-            android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".first"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+        <activity android:name=".login"/>
+        <activity android:name=".signup"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".successful"/>
+        <activity android:name=".profile"/>
+        <activity android:name=".edit_profile"/>
     </application>
 
 </manifest>
