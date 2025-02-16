@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class editProfile extends AppCompatActivity {
+public class edit_profile extends AppCompatActivity {
 
     ImageView logout1;
     TextView cancel_edit;
@@ -25,11 +25,11 @@ public class editProfile extends AppCompatActivity {
         logout1 = findViewById(R.id.imageView36);
         cancel_edit = findViewById(R.id.cancle);
         cancel_edit.setOnClickListener(v -> {
-            startActivity(new Intent(editProfile.this, profile.class));
+            startActivity(new Intent(edit_profile.this, profile.class));
         });
 
         logout1.setOnClickListener(v -> {
-            startActivity(new Intent(editProfile.this, profile.class));
+            startActivity(new Intent(edit_profile.this, profile.class));
         });
 
 

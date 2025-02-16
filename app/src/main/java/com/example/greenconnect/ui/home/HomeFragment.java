@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.nav.databinding.FragmentHomeBinding;
-import com.example.nav.profile;
+import com.example.greenconnect.databinding.FragmentHomeBinding;
+import com.example.greenconnect.profile;
 
 
 public class HomeFragment extends Fragment {
