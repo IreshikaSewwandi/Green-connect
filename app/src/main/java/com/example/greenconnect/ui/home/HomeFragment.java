@@ -9,10 +9,19 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.greenconnect.R;
 import com.example.greenconnect.databinding.FragmentHomeBinding;
+import com.example.greenconnect.edit_profile;
+import com.example.greenconnect.first;
 import com.example.greenconnect.profile;
+import com.example.greenconnect.ui.news.NewsFragment;
+import com.example.greenconnect.ui.news.NewsViewModel;
 
 
 public class HomeFragment extends Fragment {
@@ -37,10 +46,21 @@ public class HomeFragment extends Fragment {
         binding.imageView7.setOnClickListener(v -> {
             startActivity(new Intent(requireContext(), profile.class));
         });
-
-
-
-
+        binding.rectangle6.setOnClickListener(v -> {
+            NavController navController = NavHostFragment.findNavController(HomeFragment.this);
+            navController.popBackStack();  // Clears previous fragments
+            navController.navigate(R.id.navigation_chat);
+        });
+        binding.rectangle14.setOnClickListener(v -> {
+            NavController navController = NavHostFragment.findNavController(HomeFragment.this);
+            navController.popBackStack();  // Clears previous fragments
+            navController.navigate(R.id.navigation_market);
+        });
+        binding.rectangle13.setOnClickListener(v -> {
+            NavController navController = NavHostFragment.findNavController(HomeFragment.this);
+            navController.popBackStack();  // Clears previous fragments
+            navController.navigate(R.id.navigation_news);
+        });
 
         return root;
     }
