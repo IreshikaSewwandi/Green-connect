@@ -5,39 +5,38 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
-    tools:context=".editProfile">
+    android:background="@drawable/background_gradient">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="385dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints" />
 
     <View
         android:id="@+id/rectangle_1"
-        android:layout_width="412dp"
-        android:layout_height="86dp"
+        android:layout_width="433dp"
+        android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="#00AA09"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/edit_profile2"
-        android:layout_width="127dp"
-        android:layout_height="37dp"
+        android:layout_width="130dp"
+        android:layout_height="41dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:gravity="top"
@@ -46,35 +45,35 @@
         android:textAppearance="@style/edit_profile2"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.133" />
 
     <ImageView
         android:id="@+id/imageView32"
-        android:layout_width="111dp"
-        android:layout_height="114dp"
+        android:layout_width="119dp"
+        android:layout_height="122dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_1"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/editpro" />
 
     <View
         android:id="@+id/rectangle_31"
-        android:layout_width="363dp"
-        android:layout_height="519dp"
+        android:layout_width="379dp"
+        android:layout_height="536dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/rectangle_31"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_1"
-        app:layout_constraintVertical_bias="0.924" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/farm_inform"
@@ -107,10 +106,10 @@
         android:background="@drawable/rectangle_32"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.789"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.294" />
 
     <View
         android:id="@+id/rectangle_33"
@@ -168,7 +167,7 @@
         android:background="@drawable/rectangle_32"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
         app:layout_constraintVertical_bias="0.0" />
@@ -204,8 +203,10 @@
         android:textAppearance="@style/change_emai"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/rectangle_31"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_31" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_31"
+        app:layout_constraintVertical_bias="0.529" />
 
     <View
         android:id="@+id/rectangle_38"
@@ -259,7 +260,7 @@
 
     <View
         android:id="@+id/rectangle_39"
-        android:layout_width="185dp"
+        android:layout_width="204dp"
         android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -267,14 +268,14 @@
         android:background="@drawable/rectangle_39"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_31"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_31"
-        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rectangle_31"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <View
         android:id="@+id/rectangle_40"
-        android:layout_width="181dp"
+        android:layout_width="192dp"
         android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -358,29 +359,11 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
-        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="@+id/rectangle_1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639"
+        app:layout_constraintVertical_bias="0.573"
         app:srcCompat="@drawable/logout" />
-
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="245dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="1dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Farm Name"
-        android:textColor="#737373"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_32"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_32"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_32"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_32"
-        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextPhone"
@@ -469,6 +452,22 @@
         app:layout_constraintEnd_toEndOf="@+id/rectangle_33"
         app:layout_constraintStart_toStartOf="@+id/rectangle_33"
         app:layout_constraintTop_toTopOf="@+id/rectangle_33" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="256dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Farm Name"
+        android:textColor="#737373"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_32"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_32"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_32"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_32"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

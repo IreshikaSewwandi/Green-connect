@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Green Connect</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_news">News</string>
+    <string name="app_name">Green   Connect</string>
+    <string name="title_home">Green     Connect     Home</string>
+    <string name="title_chat">Green Connect     Chat</string>
+    <string name="title_market">Green   Connect     Market  Place</string>
+    <string name="title_news">Green     Connect     News</string>
     <string name="log_in">Log In</string>
     <string name="sign_up">Sign Up</string>
     <string name="let_s_empow">Let\'s empower sustainable agriculture with green connectivity, growing smart and living green.</string>
