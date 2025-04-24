@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Add internet permission for Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Add network state permission if you need to check connectivity -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,22 +17,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GreenConnect"
         tools:targetApi="31">
+
+        <!-- Main Launcher Activity -->
         <activity
             android:name=".first"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-
             </intent-filter>
         </activity>
-        <activity android:name=".login"/>
-        <activity android:name=".signup"/>
+
+        <!-- Other Activities -->
+        <activity
+            android:name=".login"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".SignupActivity"
+            android:windowSoftInputMode="adjustPan"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".successful"/>
         <activity android:name=".profile"/>
         <activity android:name=".edit_profile"/>
+        <activity android:name=".MapActivity"/>
+        <activity android:name=".CreateNewsActivity"/>
+
+        <!-- Firebase Configuration -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARSw6zFiLlR8HQvBAMhgmTvrxv_8K4LtE"/>
+
+        <!-- Only include the emulator host if you're actually using the Firebase emulator -->
+        <!-- <meta-data
+            android:name="firebase_auth_emulator_host"
+            android:value="10.0.2.2:9099" /> -->
+
+        <!-- Important for Firebase initialization -->
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
     </application>
 
 </manifest>

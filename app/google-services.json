@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "44857098003",
+    "project_id": "green-connect-9924",
+    "storage_bucket": "green-connect-9924.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44857098003:android:476f981a8aaeebd307a4e6",
+        "android_client_info": {
+          "package_name": "com.example.greenconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq22R9cyHXje-wjm66cwVUQF5m58YcOPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44857098003:android:d2fe1b6977a960c007a4e6",
+        "android_client_info": {
+          "package_name": "com.green.green_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq22R9cyHXje-wjm66cwVUQF5m58YcOPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
