@@ -59,4 +59,11 @@
     <string name="save">Save</string>
     <string name="cancle">Cancel</string>
     <string name="c">c</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="no_news_available">No news available</string>
+    <string name="add_news">Add news</string>
 </resources>

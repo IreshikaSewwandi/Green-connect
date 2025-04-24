@@ -3,41 +3,26 @@ package com.example.greenconnect.ui.news;
 import java.util.Date;
 
 public class NewsItem {
+    private String id;
     private String title;
     private String content;
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public Date getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(Date timestamp) {
-        this.timestamp = timestamp;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
-
     private String imageUrl;
+    private String link;
+    private String author;
+    private String authorId;
+    private String authorName;
+    private Date timestamp;
 
-    public String getContent() {
-        return content;
+    // Empty constructor (required for Firestore)
+    public NewsItem() {}
+
+    // Getters and Setters
+    public String getId() {
+        return id;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -48,12 +33,13 @@ public class NewsItem {
         this.title = title;
     }
 
-    private String link;
-    private String author;
-    private Date timestamp;
+    public String getContent() {
+        return content;
+    }
 
-    // Empty constructor (required for Firestore)
-    public NewsItem() {}
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     public String getImageUrl() {
         return imageUrl;
@@ -62,6 +48,44 @@ public class NewsItem {
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
-// Add getters and setters for all fields
-    // (Right-click → Generate → Getters and Setters in Android Studio)
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(String authorId) {
+        this.authorId = authorId;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
+    }
 }

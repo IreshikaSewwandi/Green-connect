@@ -42,6 +42,7 @@
         <activity android:name=".edit_profile"/>
         <activity android:name=".MapActivity"/>
         <activity android:name=".CreateNewsActivity"/>
+        <activity android:name=".EditNewsActivity"/>
 
         <!-- Firebase Configuration -->
         <meta-data
